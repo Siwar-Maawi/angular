@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './userprofile.component.scss'
 })
 export class UserprofileComponent {
+    getUserInitials(): string {
+    return 'JD';}
 
 }
